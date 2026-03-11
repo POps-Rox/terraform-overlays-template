@@ -1,0 +1,18 @@
+site_name: "Terraform Overlays Template"
+site_description: Documentation for Terraform Overlays Template
+repo_url: https://github.com/POps-Rox/tf-overlays-template
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
